@@ -1,0 +1,16 @@
+:root{
+    --letraPrincipal:1rem;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-size: var(--letraPrincipal);
+}
+.Seccion_principal{
+    background-image:url(../img/main.png);
+    color: white;
+    padding: 4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
