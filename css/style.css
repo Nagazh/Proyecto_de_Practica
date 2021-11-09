@@ -6,11 +6,42 @@ html{
     box-sizing: border-box;
     font-size: var(--letraPrincipal);
 }
-.Seccion_principal{
-    background-image:url(../img/main.png);
-    color: white;
-    padding: 4rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    justify-content: space-around;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-habilidades{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+.centrar
+{
+    grid-column:1/span3;
+}
+.sec-sobremi{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 4rem 10rem;
+    text-align: center;
+}
+fieldset h2{
+    text-align: center;
+}
+.secfieldset{
+    margin:4rem 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    text-align: center;
+}
+
